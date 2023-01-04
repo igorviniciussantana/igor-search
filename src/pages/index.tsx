@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Title } from '../components/imports'
+import { Title, Input } from '../components/imports'
 
 
 export default function Home() {
@@ -13,6 +13,7 @@ export default function Home() {
       </Head>
       <main>
    <Title />
+   <Input />
       </main>
     </>
   )
