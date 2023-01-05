@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Title, Input } from '../components/imports'
+import { Title, Input } from '@components/imports'
 
 
 export default function Home() {

@@ -1,5 +1,5 @@
 import * as Styled from "./styled";
-import { links } from "../../data/links";
+import { links } from "@data/links";
 import Image from "next/image";
 
 
