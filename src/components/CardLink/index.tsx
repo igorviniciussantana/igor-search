@@ -4,9 +4,10 @@ import Image from "next/image";
 interface CardProps {
   img: string;
   title: string;
+  url: string;
 }
 
-export default function CardLink({ img, title }: CardProps) {
+export default function CardLink({ img, title, url }: CardProps) {
   return (
     <Styled.Card>
       <Styled.Icon src={img} />

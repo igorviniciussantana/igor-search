@@ -21,7 +21,7 @@ export default function Home() {
 
         <nav>
           {links.map((link) => {
-            return <CardLink img={link.img} title={link.title} />;
+            return <CardLink img={link.img} title={link.title} url={link.url}/>;
           })}
         </nav>
       </main>

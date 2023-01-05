@@ -4,9 +4,11 @@ export const Card = styled.div`
 margin-top: 2rem;
 
 display: flex;
-justify-content: stretch;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 column-gap: 0.5rem;
-min-width: 60vw;
+width: 25%;
 
 `;
 
