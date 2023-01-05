@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-export const Card = styled.a`
-  margin-top: 2rem;
+export const Card = styled.section`
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 0.5rem;
-  width: 14rem;
+  gap: 0.5rem;
+ width: 14rem;
+
 
   padding: 1.5rem 0;
 
