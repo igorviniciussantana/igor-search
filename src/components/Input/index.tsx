@@ -1,5 +1,5 @@
 import * as Styled from "./styled";
-import { placeholders } from "../../data/placeholders";
+import { placeholders } from "@data/placeholders";
 import Image from "next/image";
 import Link from "next/link";
 
