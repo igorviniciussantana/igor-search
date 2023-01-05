@@ -6,7 +6,7 @@ margin-top: 2rem;
 display: flex;
 justify-content: stretch;
 column-gap: 0.5rem;
-width: 60vw;
+min-width: 60vw;
 
 `;
 
