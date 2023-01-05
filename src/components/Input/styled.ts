@@ -38,6 +38,7 @@ border-radius: 0.25rem;
 padding: 0 2rem;
 
 transition: .5s;
+height: 100%;
 
 cursor: pointer;
 
