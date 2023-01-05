@@ -1,6 +1,6 @@
 export const links = [
     {
         img: '',
-        title: ''
+        title: 'Discord'
     }
 ]

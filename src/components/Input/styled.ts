@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
-export const InputWrapper = styled.div`
+interface FormProps{
+    onSubmit: (e: React.FormEvent<HTMLInputElement>) => void;
+}
+
+export const InputWrapper = styled.form<FormProps>`
 margin-top: 2rem;
 
 display: flex;
-justify-content: stretch;
 column-gap: 0.5rem;
 min-width: 60vw;
 
@@ -37,13 +40,12 @@ background-color: #339989;
 border-radius: 0.25rem;
 padding: 0 2rem;
 
-transition: .5s;
-height: 100%;
+transition: 500ms;
 
 cursor: pointer;
 
 :hover{
     background-color: #1F6A5F;
-    transition: .5s;
+    transition: 500ms;
 }
 `;

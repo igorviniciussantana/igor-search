@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import { Title, Input } from '@components/imports'
+import { links } from "@data/links";
+import CardLink from '@components/CardLink';
+
 
 
 export default function Home() {
@@ -14,6 +17,14 @@ export default function Home() {
       <main>
    <Title />
    <Input />
+
+   <nav>
+{links.map(link =>{
+  return(
+    <CardLink img={link.img} title={link.title}/>
+  )
+})}
+   </nav>
       </main>
     </>
   )
